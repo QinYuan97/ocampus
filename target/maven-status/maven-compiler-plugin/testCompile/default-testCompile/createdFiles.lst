@@ -1,0 +1,4 @@
+com\ocampus\InitDatabaseTests.class
+com\ocampus\JedisTests.class
+com\ocampus\dao\NewsDAOTest.class
+com\ocampus\ToutiaoApplicationTests.class

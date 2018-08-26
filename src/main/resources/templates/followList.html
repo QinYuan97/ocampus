@@ -1,0 +1,24 @@
+#parse("header.html")
+<div id="main">
+    <div class="container">
+        #foreach($vo in $vos)
+        <div class="user-info">
+            <div class="user-avatar">
+                <a href="/user/$!{vo.id}/"><img width="32" class="img-circle" src="$!{vo.headUrl}"></a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="subject-name"> <a href="/user/$!{vo.id}/">$!{vo.name}</a></div>
+
+        #end
+
+    </div>
+
+
+
+</div>
+#parse("footer.html")
